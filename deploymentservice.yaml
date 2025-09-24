@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: secret-santa
-        image: samcolon/azure-pipeline-repo:latest
+        image: prasannanjaneya/secretsant-project:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
