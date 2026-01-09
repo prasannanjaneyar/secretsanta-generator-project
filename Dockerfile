@@ -1,5 +1,5 @@
-FROM openjdk:8u151-jdk-alpine3.7
-  
+#FROM openjdk:8u151-jdk-alpine3.7
+FROM registry.access.redhat.com/ubi8/openjdk-8  
 EXPOSE 8080
  
 ENV APP_HOME /usr/src/app
